@@ -25,7 +25,7 @@
      -->
     <v-content 
   :style="`background-image: url(${require('../assets/reagan-freeman-4Eu5Qsz7jmI-unsplash.jpg')})`" 
-  class="fill-height bg-image">
+  class="fill-height bg-image" id="hello-content">
   <v-container justify-center fill-height>
     <v-row justify="center" align="center">
       <v-col cols="12" justify="center" style="border: 1px solid;">
@@ -64,6 +64,7 @@ import axios from 'axios'
    background-position: center center;
    background-attachment: fixed;
    background-size: cover;
-   opacity: 0.5;
+   opacity: 0.8;
  }
+ 
 </style>
