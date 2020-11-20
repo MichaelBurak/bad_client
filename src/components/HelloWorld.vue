@@ -27,7 +27,7 @@
   :style="`background-image: url(${require('../assets/reagan-freeman-4Eu5Qsz7jmI-unsplash.jpg')})`" 
   class="fill-height bg-image" id="hello-content">
   <v-container justify-center fill-height>
-    <v-row justify="center" align="center">
+    <v-row justify="center" align="center" style="background-color:white; opacity:.8;">
       <v-col cols="12" justify="center" style="border: 1px solid;">
         <p><h2> The most negative sounding U.S. headline this hour is: </h2> 
         
