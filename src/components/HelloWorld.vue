@@ -29,12 +29,13 @@
   <v-container justify-center fill-height>
     <v-row justify="center" align="center">
       <v-col cols="12" justify="center" style="border: 1px solid;">
-        <p><h2> The most negative story right now is: </h2> 
+        <p><h2> The most negative sounding U.S. headline this hour is: </h2> 
         
         <h1 style="font-weight: bold; color:purple;">
-          {{article}}
+          <p>{{article}}</p>
+            
         </h1>
-
+<h2><span>(Photo by <a href="https://unsplash.com/@rfree18?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Reagan Freeman</a> on <a href="https://unsplash.com/s/photos/newspaper?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash)</a></span></h2>
       </v-col>
     </v-row>
   </v-container>
