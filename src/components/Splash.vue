@@ -1,28 +1,4 @@
 <template>
-<!--   
-     <v-parallax
-     height="100%"
-    
-    src="https://i.imgur.com/RtK5y6l.jpg"
-  >
-
-    <v-row
-      align="center"
-      justify="center"
-    >
-      <v-col
-        class="text-center"
-        cols="12"
-      >
-        <h1 class="display-1 font-weight-thin mb-4">
-          {{article}}
-        </h1>
-
-      </v-col>
-    </v-row>
-  
-     </v-parallax>
-     -->
     <v-content 
   :style="`background-image: url(${require('../assets/reagan-freeman-4Eu5Qsz7jmI-unsplash.jpg')})`" 
   class="fill-height bg-image" id="hello-content">
@@ -45,7 +21,7 @@
 <script>
 import axios from 'axios'
   export default {
-    name: 'HelloWorld',
+    name: 'Splash',
 
     data: () => ({
       article:''
