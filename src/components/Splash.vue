@@ -12,6 +12,7 @@
             
         </h1>
 <h2><span>(Photo by <a href="https://unsplash.com/@rfree18?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Reagan Freeman</a> on <a href="https://unsplash.com/s/photos/newspaper?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash)</a></span></h2>
+<h2><span>(Read the blog post about the making of this app <a href="https://michaelburak.net/got-some-bad-news-for-you-on-developing-a-machine-learning-web-app/">here.)</a></span></h2>
       </v-col>
     </v-row>
   </v-container>
