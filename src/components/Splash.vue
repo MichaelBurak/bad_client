@@ -27,7 +27,7 @@ import axios from 'axios'
     data: () => ({
       article:''
   }),
-  created() {
+  beforeCreate() {
   // Simple GET request using axios
   axios.get("https://bad-news-api.herokuapp.com/article")
     .then(response => this.article = response.data);
